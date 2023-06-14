@@ -1,0 +1,20 @@
+{
+  "name": "hresende/slim-todo",
+  "authors": [
+    {
+      "name": "hresende",
+      "email": "hugoresende27@gmail.com"
+    }
+  ],
+  "require": {
+    "slim/slim": "^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pyjac\\TodoAPI\\" : "src"
+    }
+  }
+}
